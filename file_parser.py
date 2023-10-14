@@ -6,7 +6,20 @@ JPEG_IMAGES = []
 JPG_IMAGES = []
 PNG_IMAGES = []
 SVG_IMAGES = []
+AVI_VIDEO = []
+MP4_VIDEO = []
+MOV_VIDEO = []
+MKV_VIDEO = []
+DOC_FILES = []
+DOCX_FILES = []
+TXT_FILES = []
+PDF_FILES = []
+XLSX_FILES = []
+PPTX_FILES = []
 MP3_AUDIO = []
+OGG_AUDIO = []
+WAV_AUDIO = []
+AMR_AUDIO = []
 MY_OTHER = []
 ARCHIVES = []
 
@@ -16,8 +29,23 @@ REGISTER_EXTENSION = {
     'JPG': JPG_IMAGES,
     'PNG': PNG_IMAGES,
     'SVG': SVG_IMAGES,
+    'AVI': AVI_VIDEO,
+    'MP4': MP4_VIDEO,
+    'MOV': MOV_VIDEO,
+    'MKV': MKV_VIDEO,
+    'DOC': DOC_FILES,
+    'DOCX': DOCX_FILES,
+    'TXT': TXT_FILES,
+    'PDF': PDF_FILES,
+    'XLSX': XLSX_FILES,
+    'PPTX': PPTX_FILES,
     'MP3': MP3_AUDIO,
-    'ZIP': ARCHIVES
+    'OGG': OGG_AUDIO,
+    'WAV': WAV_AUDIO,
+    'AMR': AMR_AUDIO,
+    'ZIP': ARCHIVES,
+    'GZ': ARCHIVES,
+    'TAR': ARCHIVES
 }
 
 FOLDERS = []
