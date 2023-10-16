@@ -84,8 +84,28 @@ if __name__ == '__main__':
     print(f'Images jpeg: {JPEG_IMAGES}')
     print(f'Images jpg: {JPG_IMAGES}')
     print(f'Images png: {PNG_IMAGES}')
+    print(f'Images svg: {SVG_IMAGES}')
+
+    print(f'Videos avi: {AVI_VIDEO}')
+    print(f'Videos mp4: {MP4_VIDEO}')
+    print(f'Videos mov: {MOV_VIDEO}')
+    print(f'Videos mkv: {MKV_VIDEO}')
+
+    print(f'Files doc: {DOC_FILES}')
+    print(f'Files docx: {DOCX_FILES}')
+    print(f'Files txt: {TXT_FILES}')
+    print(f'Files pdf: {PDF_FILES}')
+    print(f'Files xlsx: {XLSX_FILES}')
+    print(f'Files pptx: {PPTX_FILES}')
+
     print(f'Audio mp3: {MP3_AUDIO}')
+    print(f'Audio ogg: {OGG_AUDIO}')
+    print(f'Audio wav: {WAV_AUDIO}')
+    print(f'Audio amr: {AMR_AUDIO}')
+
     print(f'Archives zip: {ARCHIVES}')
+    print(f'Archives gz: {ARCHIVES}')
+    print(f'Archives tar: {ARCHIVES}')
 
     print(f'EXTENSIONS: {EXTENSIONS}')
     print(f'UNKNOWN: {UNKNOWN}')
